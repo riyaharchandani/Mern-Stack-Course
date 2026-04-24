@@ -77,3 +77,27 @@ input[type="radio"]:checked + label{
     color:red;
     font-weight: bold;
 }
+
+div:nth-of-type(2n) {
+    background-color: blanchedalmond;
+}
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line {
+    color: blue;
+}
+
+p::selection {
+    background-color: rgb(224, 209, 69);
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h3 {
+    background-color: blue;
+}
