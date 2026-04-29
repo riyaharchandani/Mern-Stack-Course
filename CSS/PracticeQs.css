@@ -15,7 +15,7 @@ h1{
     background-color: aqua;
 } */
 
-#outer{
+/* #outer{
     height: 200px;
     width: 70px;
     border: 2px solid black;
@@ -39,4 +39,44 @@ h1{
 
 #green{
     background-color: green;
+} */
+
+/* h2 {
+  display: inline;
+  background-color: greenyellow;
+}
+
+span {
+  display: block;
+  background-color: pink;
+} */
+
+/* span {
+  background-color: pink;
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+}
+
+div {
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+} */
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  margin: 5px;
+  display: inline-block;
+}
+
+#third {
+  display: none;
 }

@@ -1,86 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Chapter 1</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- <style>
-      h1 {
-        color: red;
-        background-color: black;
-      }
-    </style> -->
-  </head>
-  <body>
-    <!--Inline Style-->
-    <!-- <h1 style="color: red">KCNIT</h1>
-    <h1 style="color: red">Riya Harchandani</h1>
-    <h1 style="color: red">Hello</h1>
-    <p style="color: aqua">This is my college</p>
-    <button style="color: blue; background-color: rgb(205, 71, 22)">
-      Help me
-    </button> -->
+    <title>CSS Chapter2</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style1.1.css">
+</head>
 
-    <!--Style Tag-->
-    <!-- <h1>KCNIT</h1>
-    <h1>Riya Harchandani</h1>
-    <p>This is paragraph 1</p>
-    <p>This is paragraph 2</p>
-    <button>Button 1</button>
-    <button>Button 2</button> -->
+<body>
+    <header>
+        <h1>Quora
+            <button id="login">Log in</button>
+            <button id="signup">Sign up</button>
+        </h1>
+        <div>
+            <input type="text" placeholder="username">
+            <input type="password" placeholder="password">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/following">Following</a></li>
+                <li><a href="/answer">Answer</a></li>
+                <li><a href="/spaces">Spaces</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <div>
+            <p class="post">
+                Adam &nbsp;&nbsp;
+                <a class="follow" href="/adam">Follow /abc</a></span>
+            </p>
+            <h3>What is the highest salary for a spacex engineer?</h3>
+            <span>
+                <button class="upvote">+upvote</button>
+                <button>answer</button>
+            </span>
+            <hr />
+        </div>
+        <div>
+            <p class="post">
+                Bob &nbsp;&nbsp;
+                <a class="follow" href="/bob">Follow xyz</a>
+            </p>
+            <h3>What is the syllabus for JEE 2024?</h3>
+            <span>
+                <button class="upvote">+upvote</button>
+                <button>answer</button>
+            </span>
+            <hr />
+        </div>
+        <div>
+            <p class="post">
+                Catlyn &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="follow" href="/catlyn">Follow pqr</a>
+            </p>
+            <h3>Why is the sky blue?</h3>
+            <span>
+                <button class="upvote">+upvote</button>
+                <button>answer</button>
+            </span>
+            <hr />
+        </div>
+        <div>
+            <p class="post">
+                Dan &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="follow" href="/dan">Follow pqr</a>
+            </p>
+            <h3>Why is the sky blue?</h3>
+            <span>
+                <button class="upvote">+upvote</button>
+                <button>answer</button>
+            </span>
+            <hr />
+        </div>
+        <p>This is the end of my website. know more about us on <a href="google.com">Google</a></p>
+    </main>
+    <div id="myId">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur culpa, incidunt officiis sapiente
+            assumenda repellendus eaque cum totam quo necessitatibus accusamus dignissimos at consequuntur asperiores
+            quod est animi. Provident, voluptas.
+        </p>
+        <div>
+            <input type="radio" id="yes" name="agreement">
+            <label for="yes">Yes</label>
+            <input type="radio" id="No" name="agreement">
+            <label for="No">No</label>
+        </div>
+    </div>
+</body>
 
-    <!--Practice set-->
-    <!-- <h2>Hi there!</h2>
-    <p>My name is Tom &amp; I am there to help you.</p>
-    <button>Need Help</button> -->
-
-    <!--color system-->
-    <!-- <h2>Hi there!</h2> -->
-    <!-- <h1>Iron Man</h1>
-    <hr />
-    <p>
-      <a href="google.com">Google me</a>
-      Iron Man is a superhero appearing in American comic books published by
-      Marvel Comics. Co-created by writer and editor Stan Lee, developed by
-      scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby,
-      the character first appeared in Tales of Suspense #39 in 1962 (cover dated
-      March 1963) and received his own title with Iron Man #1 in 1968. Shortly
-      after his creation, Iron Man became a founding member of the superhero
-      team the Avengers, alongside Thor, Ant-Man, the Wasp, and the Hulk.
-    </p>
-    <h2>Publicantion History</h2>
-    <hr />
-    <h3>Premiere</h3>
-    <p>
-      Iron Man's Marvel Comic's appeared in The Avengers (1963) was developed as
-      a new comic book series.[14] Iron Man was one of the five characters who
-      formed the titular superhero team.[15] By 1965, the difficulty of
-      maintaining continuity between The Avengers and the members' solo titles
-      prompted Lee to temporarily write the original cast out of The Avengers,
-      including Iron Man.[16]
-    </p>
-    <h3>Solo series</h3>
-    <p>
-      After issue #99 (March 1968), the tales of suspense series was renamed
-      Captain America.An Iron Man story appeard in the one shot comic iron and
-      Sub-Mariner (April 1968), before the "Golden Avenger"[19] made his solo
-      debut with Iron Man #1 (May 1968).[20]The series's indicia gives it's
-      copyright title Iron Man.
-    </p>
-    <h2>Fictional Character Biography</h2>
-    <hr />
-    <p>
-      Anthony Edward Stark is the son of Howard Stark, a wealthy industrialist
-      who leads Start Industries, and Maria Stark.Aboy genius,he entered MIT at
-      15 to study engineering and later received master's degree in engineering
-      and physics. After his parent's are killed in a car accident, he inherit's
-      his father's company
-    </p> -->
-    <!--Practice Set-->
-    <!-- <h1>
-      Apna <br />
-      College
-    </h1> -->
-  </body>
 </html>
