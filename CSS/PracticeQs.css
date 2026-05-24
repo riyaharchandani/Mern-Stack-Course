@@ -80,7 +80,7 @@ div {
 #third {
   display: none;
 } */
-.face {
+/* .face {
   width: 400px;
   height: 400px;
   background-color: #ffa511;
@@ -111,4 +111,43 @@ div {
 
 .right-eye {
   left: 250px;
+} */
+
+/* PET ADOPTION PAGE */
+
+h2 {
+  color: brown;
+}
+
+span {
+  color: olive;
+}
+
+.card {
+  width: 400px;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+h4 {
+  text-align: right;
+  color: #3c787e;
+}
+
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 375px) {
+  #pets {
+    flex-wrap: wrap;
+  }
 }

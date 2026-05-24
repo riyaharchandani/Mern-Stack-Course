@@ -1,0 +1,129 @@
+/* .container {
+  width: 600px;
+  height: 300px;
+  background-color: yellow;
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  grid-template-columns: 200px 200px 200px;        EXAMPLE  
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+.item {
+  width: 100px;
+  height: 50px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.one {
+  justify-self: center;
+  align-self: center;
+}
+
+.one {                            E
+  grid-column-start: 1;           X
+  grid-column-end: 4;             A
+  grid-column: 1 / span 2;        M   
+}                                 
+ 
+.two {                            P           
+  grid-row-start: 1;              L          
+  grid-row-end: 3;                E          
+} */
+/* .box {
+  height: 100px;
+  width: 300px;
+  background-color: pink; */
+
+/* animation-name: fontAnimation; */
+/* animation-name: colorAnimate; */
+/* animation-name: widthAnimate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal; */
+
+/* animation: colAnimate 4s ease-in 0s 2 normal;
+} */
+
+/* @keyframes colAnimate {
+  0% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+  }
+  80% {
+    background-color: red;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+@keyframes fontAnimation {
+  from {
+    font-size: 20px;
+  }
+  to {
+    font-size: 40px;
+  }
+}
+
+@keyframes colorAnimate {
+  from {
+    background-color: green;
+  }
+  to {
+    background-color: blue;
+  }
+} */
+h1 {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+@media (width: 401px) {
+  h1 {
+    background-color: red;
+    color: white;
+  }
+  div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+  }
+}
+
+@media (min-width: 700px) {
+  h1 {
+    background-color: greenyellow;
+  }
+}
+
+@media (max-width: 200px) {
+  h1 {
+    background-color: pink;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+  h1 {
+    background-color: magenta;
+  }
+}
+
+@media (orientation: landscape) {
+  h1 {
+    background-color: aqua;
+    color: brown;
+  }
+}
